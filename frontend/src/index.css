@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* VectorShift-inspired node styles */
+.vs-node {
+  border-radius: 8px;
+  background: linear-gradient(180deg, #ffffff, #f6f8fb);
+  box-shadow: 0 6px 14px rgba(20,20,40,0.08);
+  border: 1px solid rgba(20,20,40,0.06);
+  padding: 8px;
+  font-size: 13px;
+  color: #111827;
+  overflow: hidden;
+}
+.vs-node-header {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.vs-node-body {
+  font-size: 13px;
+}
+
+button {
+  background: #0b5fff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover { opacity: 0.95 }
+
+textarea, input, select { font-size: 13px }
+
